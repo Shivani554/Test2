@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, sum = 0;
+    int x, y, sum = 0;
   
       // Read two numbers from the user
     printf("Enter two integers: ");
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", &x, &y);
 
     // Calculate the addition of a and b
     // using '+' operator
-    sum = a + b;
+    sum = x + y;
 
     printf("Sum: %d", sum);
 
